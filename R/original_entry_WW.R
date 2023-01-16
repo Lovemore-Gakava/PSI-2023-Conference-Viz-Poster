@@ -59,10 +59,9 @@ Turquoise100 <- "#00a3e0"
 
 
                   #Set data and results areas up
-                  sourcedata <- "C:/Users/q1062810/OneDrive - IQVIA/Wonderful Wednesday/Psychometrics/"
+                  # sourcedata <- "C:/Users/q1062810/OneDrive - IQVIA/Wonderful Wednesday/Psychometrics/"
 
-                  setwd(sourcedata)
-                  dat <-read.csv("PSI_WW_psychometric.csv")
+                  dat <-read.csv("data-raw/PSI_WW_psychometric.csv")
 
                   ### Make dataset for each timepoint ====
                   dat_t1 <- dat %>%
@@ -164,6 +163,6 @@ Turquoise100 <- "#00a3e0"
                                                             right = NULL)
 
                   Response_Distributions
-                  png(filename = "Response Distributions.png",  width = 920, height = 540, units = "px", pointsize = 10,bg = "white")
+                  png(filename = "outputs/Response Distributions.png",  width = 920, height = 540, units = "px", pointsize = 10,bg = "white")
                   Response_Distributions
                   dev.off()
