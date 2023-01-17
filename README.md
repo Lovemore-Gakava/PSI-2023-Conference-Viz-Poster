@@ -6,7 +6,8 @@ Example 1. Item Response Distribution Plot
 
 Reference data from: https://github.com/VIS-SIG/Wonderful-Wednesdays/blob/master/data/2021/2021-06-09/PSI_WW_psychometric.csv
 
-Updates to reference data: Add two treatment arms
+Updates to reference data: Add Treatment variable
+                            * Treatment A and Treatment B
 
 # PSI Wonderful Wednesday- Psychometric example dataset 
 
