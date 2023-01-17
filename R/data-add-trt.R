@@ -7,4 +7,4 @@ dat <- dat |>
   mutate(TRT = ifelse(rand < 50, "Treatment A", "Treatment B")) |>
   select(-c("rand"))
 
-write_rds(data, "data/PSI_WW_psychometric.rds")
+write_rds(dat, "data/PSI_WW_psychometric.rds")
